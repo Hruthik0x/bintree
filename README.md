@@ -34,10 +34,7 @@ typedef struct node{
    #define number data
    #define my_createnode create_node
    ```
-   
-   ![image](https://github.com/Hruthik0x/bintree/assets/69683617/86509516-4046-4868-af84-3b27455d6b2a)
 
-	
 6) Use disp_tree(root_address) to visualize the binary tree on your browser
 
    Example :
