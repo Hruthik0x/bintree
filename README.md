@@ -52,7 +52,7 @@ typedef struct node{
     node *root = NULL;
     int list_1[11] = {33,42,22,70,20,28,1,39,84,26,-30};
     for (int a = 0 ; a < 11 ; a++)
-        root = insert_bst(root,list_1[a]);
+        root = insert_bst(root,list_1[a]);    \\insert_bst function (Inserts elements in binary search tree) is not included in the library
     disp_tree(root);
 ```
 
@@ -72,11 +72,11 @@ typedef struct node{
     node *root = NULL;
     int list_1[11] = {33,42,22,70,20,28,1,39,84,26,-30};
     for (int a = 0 ; a < 11 ; a++)
-        root = insert_bst(root,list_1[a]);
+        root = insert_bst(root,list_1[a]);	\\insert_bst function (Inserts elements in binary search tree) is not included in the library
     disp_tree(root,"Before inserting from list_2");
     int list_2[4] = {21,30,40,41};
     for (int a = 0 ; a < 4 ; a++)
-        root = insert_bst(root, list_2[a]);
+        root = insert_bst(root, list_2[a]);	\\insert_bst function (Inserts elements in binary search tree) is not included in the library
     disp_tree(root,"After inserting from list_2");
 ```
 
