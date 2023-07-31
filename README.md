@@ -11,7 +11,7 @@ chmod a+x Setup.out
 ./Setup.out
 ```
 
-2)After the setup, you can use 
+2) After the setup, you can use 
 ```
 #include <bintree.h>
 ```
