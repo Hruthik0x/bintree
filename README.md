@@ -8,7 +8,7 @@ Please, go through all of the points
 2) Use the struct mentioned in bintree.h to create nodes (else you would run into errors)
    which is :
 
-```
+```C
 typedef struct node{
     int data;
     struct node *right;
