@@ -22,6 +22,7 @@ Download the repo, unzip/extract the files and open the terminal in the director
    It has already been declared, and **there's no need to declare it again explicitly.**
    Users can directly use it in their code without any **additional declarations**.
     ```C
+    \\This struct is already declared in <bintree.h>, so there's no need to declare it again explicitly
     typedef struct node{
         int data;
         struct node *right;
