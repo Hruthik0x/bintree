@@ -8,6 +8,13 @@ Please, go through all of the points
 2) Use the struct mentioned in bintree.h to create nodes (else you would run into errors)
    which is :
 
+```
+typedef struct node{
+    int data;
+    struct node *right;
+    struct node *left;
+}node;
+```
 ![image](https://github.com/Hruthik0x/bintree/assets/69683617/548f4986-b44d-41bc-a1d9-a6a93267fae5)
 
 
