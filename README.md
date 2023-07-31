@@ -30,8 +30,8 @@ typedef struct node{
 
    ```C
    #define my_node node
-   #define left_child child
-   #define right_child child
+   #define left_child left
+   #define right_child right
    #define number data
    #define my_createnode create_node
    ```
