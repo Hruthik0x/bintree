@@ -18,9 +18,9 @@ Download the repo, unzip/extract the files and open the terminal in the director
     #include <bintree.h>
     ```
 
-4) Use the struct mentioned in bintree.h to create nodes (else you would run into errors)
-   which is :
-
+4) The struct node is a **pre-defined data structure within this library.**
+   It has already been declared, and **there's no need to declare it again explicitly.**
+   Users can directly use it in their code without any **additional declarations**.
     ```C
     typedef struct node{
         int data;
@@ -29,11 +29,9 @@ Download the repo, unzip/extract the files and open the terminal in the director
      }node;
      ```
 
-5) Since the node is already declared/defined for you, no need to create a separate struct for the binary tree.
+5) Also create_node function is already declared/defined which would create the node and return the node address for you.
 
-6) Also create_node function is already declared/defined which would create the node and return the node address for you.
-
-7) If you want to use custom names for members, structs and functions, you can use the macro (#define)
+6) If you want to use custom names for members, structs and functions, you can use the macro (#define)
 
    ```C
    #define my_node node
@@ -43,7 +41,7 @@ Download the repo, unzip/extract the files and open the terminal in the director
    #define my_createnode create_node
    ```
 
-8) Use disp_tree(root_address) to visualize the binary tree on your browser
+7) Use disp_tree(root_address) to visualize the binary tree on your browser
 
    Example :
 
