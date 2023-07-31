@@ -8,11 +8,7 @@ Please, go through all of the points
 2) Use the struct mentioned in bintree.h to create nodes (else you would run into errors)
    which is :
 
-   typedef struct node{
-       int data;
-       struct node *right;
-       struct node *left;
-   }node;
+![image](https://github.com/Hruthik0x/bintree/assets/69683617/548f4986-b44d-41bc-a1d9-a6a93267fae5)
 
 
 3) Since the node is already declared/defined for you, no need to create a separate struct for the binary tree.
@@ -20,23 +16,29 @@ Please, go through all of the points
 4) Also create_node function is already declared/defined which would create the node and return the node address for you.
 
 5) If you want to use custom names for members, structs and functions, you can use the macro (#define)
-   Example :
-	#include <bintree.h>
-	#define myNode node
-	#define leftchild left
-	#define rightchild right
-	#define number data
-	#define my_createNode create_node
+   
+   ![image](https://github.com/Hruthik0x/bintree/assets/69683617/86509516-4046-4868-af84-3b27455d6b2a)
+
 	
-6) Use disp_tree(root_address) to visualize the binary tree on your browser 
+6) Use disp_tree(root_address) to visualize the binary tree on your browser
+
+   Code :
+   
+![image](https://github.com/Hruthik0x/bintree/assets/69683617/f97ecf55-de99-492e-95ff-e9efd896d733)
+
+   Output :
+
+   ![image](https://github.com/Hruthik0x/bintree/assets/69683617/63cc8cd2-5f1f-468e-a470-b31bec9a2570)
+
 			or
+   
    Use disp_tree(root_adress, custom_string) to visualize the binary tree with the custom_string on the top left, 
    so that you can keep track of the instances where you used the disp_tree function
    
-7) To compile the code use this :
+9) To compile the code use this :
 	gcc myprogram.c -lbintree
 	
-8) To remove the library run the Uninstall.out via the terminal
+10) To remove the library run the Uninstall.out via the terminal
 	
 	
 
