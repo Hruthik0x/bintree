@@ -11,7 +11,13 @@ chmod a+x Setup.out
 ./Setup.out
 ```
 
-2) Use the struct mentioned in bintree.h to create nodes (else you would run into errors)
+2)After the setup, you can use 
+```
+#include <bintree.h>
+```
+to use the library in your code
+
+3) Use the struct mentioned in bintree.h to create nodes (else you would run into errors)
    which is :
 
 ```C
@@ -22,11 +28,11 @@ typedef struct node{
 }node;
 ```
 
-3) Since the node is already declared/defined for you, no need to create a separate struct for the binary tree.
+4) Since the node is already declared/defined for you, no need to create a separate struct for the binary tree.
 
-4) Also create_node function is already declared/defined which would create the node and return the node address for you.
+5) Also create_node function is already declared/defined which would create the node and return the node address for you.
 
-5) If you want to use custom names for members, structs and functions, you can use the macro (#define)
+6) If you want to use custom names for members, structs and functions, you can use the macro (#define)
 
    ```C
    #define my_node node
@@ -36,7 +42,7 @@ typedef struct node{
    #define my_createnode create_node
    ```
 
-6) Use disp_tree(root_address) to visualize the binary tree on your browser
+7) Use disp_tree(root_address) to visualize the binary tree on your browser
 
    Example :
 
@@ -55,7 +61,7 @@ typedef struct node{
 
 **OR**
    
-7) Use disp_tree(root_adress, custom_string) to visualize the binary tree with the custom_string on top of the binary tree, 
+8) Use disp_tree(root_adress, custom_string) to visualize the binary tree with the custom_string on top of the binary tree, 
    so that you can keep track of the instances where you used the disp_tree function
 
    Example : 
@@ -79,13 +85,13 @@ typedef struct node{
    ![](https://github.com/Hruthik0x/bintree/assets/69683617/8d95f56a-b330-4ab2-bf87-e2471a9321a5)
 
 
-8) To compile the code use this :
+9) To compile the code use this :
    
    ```
 	gcc myprogram.c -lbintree
    ```
 
-9) To remove the library run the Uninstall.out via the terminal
+10) To remove the library run the Uninstall.out via the terminal
 
     ```
     chmod a+x Uninstall.out
