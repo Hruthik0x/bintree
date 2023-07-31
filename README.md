@@ -4,6 +4,8 @@ Please, go through all of the points
 
 Repo link : https://github.com/Hruthik0x/bintree
 
+Download the repo, unzip/extract the files and open the terminal in the directory in which the files are extracted
+
 1) Run the Setup.out via the terminal for the installation
    
 ```bash
