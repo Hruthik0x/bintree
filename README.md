@@ -2,7 +2,7 @@
 A C library to make the visualization of binary trees in C easier
 Please, go through all of the points
 
-Repo link : [https://github.com/Hruthik0x/bintree]
+Repo link : https://github.com/Hruthik0x/bintree
 
 1) Run the Setup.out via the terminal for the installation
    
