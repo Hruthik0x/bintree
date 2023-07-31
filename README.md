@@ -49,8 +49,9 @@ typedef struct node{
 ```
 
    Output :
-   
-![image](https://github.com/Hruthik0x/bintree/assets/69683617/66681ee4-1042-45ce-9f41-1366bed46eeb)
+
+![](https://github.com/Hruthik0x/bintree/assets/69683617/27bf7a40-4b03-4b72-bc51-d19e6014078b)
+
 
 **OR**
    
@@ -72,10 +73,11 @@ typedef struct node{
 ```
 
    Output :
-   
-   ![image](https://github.com/Hruthik0x/bintree/assets/69683617/9969e1b8-d4a5-4ca0-90c4-32c68788e14c)
-   
-   ![image](https://github.com/Hruthik0x/bintree/assets/69683617/ce1811a3-24e7-4836-a2d4-92ae1380133c)
+
+   ![](https://github.com/Hruthik0x/bintree/assets/69683617/d7fead00-fc57-47d3-870f-b6a49da70dc9)
+
+   ![](https://github.com/Hruthik0x/bintree/assets/69683617/8d95f56a-b330-4ab2-bf87-e2471a9321a5)
+
 
 8) To compile the code use this :
    
