@@ -1,6 +1,10 @@
 # bintree
+
+**Note** : Specific to Linux OS and x86_64 architecture, binaries for other architectures will be out soon.
+
 A C library to make the visualization of binary trees in C easier
-Please, go through all of the points
+
+Please, go through all of the points mentioned below
 
 Repo link : https://github.com/Hruthik0x/bintree
 
