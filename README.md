@@ -22,7 +22,7 @@ To know your architecture use the following command in the terminal :
      
 Download the repo, unzip/extract the files and open the terminal in the directory that corresponds to your architecture.
 
-For example, if your architecture is x86 (64 bit) then open the terminal in /Bintree/x86 (64bit) folder and follow the below steps.
+For example, if your architecture is x86 (64 bit) then open the terminal in /bintree-main/x86 (64bit) folder and follow the below steps.
 
 1) Run the setup via the terminal for the installation
    
