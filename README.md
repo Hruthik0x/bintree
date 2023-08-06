@@ -1,6 +1,6 @@
 # bintree
 
-**Note** : Specific to Linux OS and x86_64 architecture, binaries for other architectures will be out soon.
+**Note** : Specific to Linux OS
 
 A C library to make the visualization of binary trees in C easier
 
@@ -8,13 +8,28 @@ Please, go through all of the points mentioned below
 
 Repo link : https://github.com/Hruthik0x/bintree
 
-Download the repo, unzip/extract the files and open the terminal in the directory in which the files are extracted
+To know your architecture use the following command in the terminal : 
 
-1) Run the Setup.out via the terminal for the installation
+    ```
+    uname -m
+    ```
+
+Output     |   Architectue
+---------------------------
+x86_64     |   x86 (64 bit)
+i686       |   x86 (32 bit)
+aarch64    |   ARM (64 bit)
+armv71     |   ARM (32 bit)
+     
+Download the repo, unzip/extract the files and open the terminal in the directory that corresponds to your architecture.
+
+For example, if your architecture is x86 (64 bit) then open the terminal in /Bintree/x86 (64bit) folder and follow the below steps.
+
+1) Run the setup via the terminal for the installation
    
     ```sh
-    chmod a+x Setup.out
-    ./Setup.out
+    chmod a+x setup
+    ./setup
     ```
 
 2) After the setup, use this, to include the library
@@ -98,8 +113,8 @@ Download the repo, unzip/extract the files and open the terminal in the director
 10) To remove the library run the Uninstall.out via the terminal
 
     ```
-    chmod a+x Uninstall.out
-    ./Uninstall.out
+    chmod a+x uninstall
+    ./uninstall
     ```
 	
 	
