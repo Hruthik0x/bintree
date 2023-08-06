@@ -14,12 +14,12 @@ To know your architecture use the following command in the terminal :
 	uname -m
  	```
 
-Output   |   Architecture
----------------------------
-x86_64   |   x86 (64 bit)
-i686     |   x86 (32 bit)
-aarch64  |   ARM (64 bit)
-armv7l   |   ARM (32 bit)
+| Output   | Architecture    |
+| -------- | --------------- |
+| x86_64   | x86 (64 bit)    |
+| i686     | x86 (32 bit)    |
+| aarch64  | ARM (64 bit)    |
+| armv7l   | ARM (32 bit)    |
 
      
 Download the repo, unzip/extract the files and open the terminal in the directory that corresponds to your architecture.
