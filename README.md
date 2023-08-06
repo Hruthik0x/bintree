@@ -15,11 +15,11 @@ To know your architecture use the following command in the terminal :
  	```
 
 Output     |   Architectue
----------------------------
-x86_64     |   x86 (64 bit)
-i686       |   x86 (32 bit)
-aarch64    |   ARM (64 bit)
-armv71     |   ARM (32 bit)
+
+x86_64     ->   x86 (64 bit)
+i686       ->   x86 (32 bit)
+aarch64    ->   ARM (64 bit)
+armv71     ->   ARM (32 bit)
      
 Download the repo, unzip/extract the files and open the terminal in the directory that corresponds to your architecture.
 
