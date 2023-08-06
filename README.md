@@ -10,8 +10,9 @@ Repo link : https://github.com/Hruthik0x/bintree
 
 To know your architecture use the following command in the terminal : 
 
-    ```
-    uname -m
+    ```sh
+    chmod a+x setup
+    ./setup
     ```
 
 Output     |   Architectue
