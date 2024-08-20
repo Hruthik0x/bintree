@@ -9,7 +9,7 @@
     RBNode* : dispRBTree \
     )(x)
 
-//For the js file, (canvas).. Refer to script.js in 
+//For the js file, (canvas).. Refer to script.js in
 #define OUTER_RAD 25                    //Circle outer radius
 #define INNER_RAD 21                    //Circle inner radius
 #define LINE_WIDTH 4                    //Node connecting lines width
